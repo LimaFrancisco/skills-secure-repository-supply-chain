@@ -1,6 +1,6 @@
 version: 2
 updates:
-  - package-ecosystem: "github-actions"
-    directory: "/"
+  - package-ecosystem: "npm"
+    directory: "/code/src/AttendeeSite"
     schedule:
-      interval: "monthly"
+      interval: "weekly"
